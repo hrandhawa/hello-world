@@ -1,0 +1,23 @@
+package com.practice;
+
+public class LambdaSession {
+	
+	public static void main(String[] str) {
+		
+	}
+	
+	public interface HasColor {
+		void displayColor();
+	}
+	
+	public class Car implements HasColor{
+		String model;
+
+		@Override
+		public void displayColor() {
+			System.out.println("White Pearl.");
+		}
+		
+	}
+
+}
